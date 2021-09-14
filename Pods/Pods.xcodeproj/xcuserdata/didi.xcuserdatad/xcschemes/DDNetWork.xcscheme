@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4E3DF037F711D6DE3C705A727ECCA17"
-               BuildableName = "DDNetWork.framework"
+               BuildableName = "DDNetWork"
                BlueprintName = "DDNetWork"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

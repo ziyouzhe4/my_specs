@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DDUtil.h"
 
 FOUNDATION_EXPORT double DDNetWorkVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDNetWorkVersionString[];

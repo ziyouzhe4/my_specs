@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022C71B451DC4A2A5D899E39 /* libPods-JenkinsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B24FBCB7ED9A8EF7EE57BC /* libPods-JenkinsDemo.a */; };
 		0ABB762926D5E47D00B3B6FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB762826D5E47D00B3B6FD /* AppDelegate.m */; };
 		0ABB762C26D5E47D00B3B6FD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB762B26D5E47D00B3B6FD /* SceneDelegate.m */; };
 		0ABB762F26D5E47D00B3B6FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB762E26D5E47D00B3B6FD /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		0ABB763426D5E47F00B3B6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB763326D5E47F00B3B6FD /* Assets.xcassets */; };
 		0ABB763726D5E47F00B3B6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABB763526D5E47F00B3B6FD /* LaunchScreen.storyboard */; };
 		0ABB763A26D5E47F00B3B6FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB763926D5E47F00B3B6FD /* main.m */; };
-		ADE8127FFEA334DCA2A3AFAD /* Pods_JenkinsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2E13FF964C360A074505E8 /* Pods_JenkinsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +30,9 @@
 		0ABB763626D5E47F00B3B6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ABB763826D5E47F00B3B6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ABB763926D5E47F00B3B6FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B24FBCB7ED9A8EF7EE57BC /* libPods-JenkinsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JenkinsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DCEABEC5A9ACAEA818506C /* Pods-JenkinsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsDemo.release.xcconfig"; path = "Target Support Files/Pods-JenkinsDemo/Pods-JenkinsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		557CD7D8714D30B89C92A0CD /* Pods-JenkinsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsDemo.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsDemo/Pods-JenkinsDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BF2E13FF964C360A074505E8 /* Pods_JenkinsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE8127FFEA334DCA2A3AFAD /* Pods_JenkinsDemo.framework in Frameworks */,
+				022C71B451DC4A2A5D899E39 /* libPods-JenkinsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 		DA5ACAEAC39D2C13D2B6601A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF2E13FF964C360A074505E8 /* Pods_JenkinsDemo.framework */,
+				13B24FBCB7ED9A8EF7EE57BC /* libPods-JenkinsDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,7 +112,6 @@
 				0ABB762026D5E47D00B3B6FD /* Sources */,
 				0ABB762126D5E47D00B3B6FD /* Frameworks */,
 				0ABB762226D5E47D00B3B6FD /* Resources */,
-				5AF6A348083CB98B9D43D890 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,23 +167,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5AF6A348083CB98B9D43D890 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JenkinsDemo/Pods-JenkinsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JenkinsDemo/Pods-JenkinsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JenkinsDemo/Pods-JenkinsDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		79007611EFAC15DFC98BF5E0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

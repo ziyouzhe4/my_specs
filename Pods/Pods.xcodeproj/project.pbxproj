@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC50511B85A6EA6E439019BA04E7A4F /* DDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 27924ED179A0807CFB73F34CC6F0EB9B /* DDUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AC50511B85A6EA6E439019BA04E7A4F /* DDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F11B20B5D661CA646DF6E89C4896F2 /* DDUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4723BF6CBFF9DC9469634E504E707573 /* Pods-JenkinsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7319514A3D6BE48DE44BD94C9B86F /* Pods-JenkinsDemo-dummy.m */; };
-		480857B3FA11C999B8B81F74607E0D18 /* DDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EEE4B2F75FE12C01DC2DDA433C5D4 /* DDUtil.m */; };
-		650F9C5EF566CE8E1DAA8088DE656359 /* DDNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45985F5C613406F429F5479561809591 /* DDNetWork-dummy.m */; };
+		480857B3FA11C999B8B81F74607E0D18 /* DDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C1E1948633C1B938F8394125CD987 /* DDUtil.m */; };
+		650F9C5EF566CE8E1DAA8088DE656359 /* DDNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B350E8D87EAF9C184FCC65E3FF1C23FB /* DDNetWork-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F9C39BD25080A248F81279DAE78CD0F /* PBXContainerItemProxy */ = {
+		6EB15FE8C4CCA1AE4CE7C8F367FFD663 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -26,19 +26,16 @@
 /* Begin PBXFileReference section */
 		0EC7319514A3D6BE48DE44BD94C9B86F /* Pods-JenkinsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsDemo-dummy.m"; sourceTree = "<group>"; };
 		14042E8FFF87FBC32E088F434C9A7505 /* libPods-JenkinsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JenkinsDemo.a"; path = "libPods-JenkinsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27924ED179A0807CFB73F34CC6F0EB9B /* DDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDUtil.h; path = DDNetWork/Classes/DDUtil.h; sourceTree = "<group>"; };
-		45985F5C613406F429F5479561809591 /* DDNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDNetWork-dummy.m"; sourceTree = "<group>"; };
-		468EEE4B2F75FE12C01DC2DDA433C5D4 /* DDUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDUtil.m; path = DDNetWork/Classes/DDUtil.m; sourceTree = "<group>"; };
+		35F11B20B5D661CA646DF6E89C4896F2 /* DDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDUtil.h; path = DDNetWork/Classes/DDUtil.h; sourceTree = "<group>"; };
+		4C2A56788D95F7EB7F0EB3B376E07C3D /* DDNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDNetWork-prefix.pch"; sourceTree = "<group>"; };
 		4F3DEC877DB760F8335BDCA78C490189 /* Pods-JenkinsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDNetWork.xcconfig; sourceTree = "<group>"; };
+		8E3C1E1948633C1B938F8394125CD987 /* DDUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDUtil.m; path = DDNetWork/Classes/DDUtil.m; sourceTree = "<group>"; };
 		9C6CF7BF8D2458ACAA1F4189511AC468 /* libDDNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDDNetWork.a; path = libDDNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1489A77735D38EBC629B6322ADA7D8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A3E849D972951C2FFEF925D3D963C406 /* Pods-JenkinsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsDemo.release.xcconfig"; sourceTree = "<group>"; };
-		A8CE2CE978BE5D2386257DAB7E83AA31 /* DDNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDNetWork-prefix.pch"; sourceTree = "<group>"; };
 		A9B3A135B14577CD62C044253D41ECA5 /* Pods-JenkinsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		BFC5D1EAF89D08F3D3B624F35B2D563E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F4EE335D0B1BF01DE045E76311981B46 /* DDNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B350E8D87EAF9C184FCC65E3FF1C23FB /* DDNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDNetWork-dummy.m"; sourceTree = "<group>"; };
+		D5AB1ED13C51E8F26745F6767B3BD17F /* DDNetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDNetWork.xcconfig; sourceTree = "<group>"; };
 		FB7C88969ED0E8FB55F16CF6DADA61B7 /* Pods-JenkinsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,16 +70,15 @@
 			path = "Target Support Files/Pods-JenkinsDemo";
 			sourceTree = "<group>";
 		};
-		1875F7627AF47F89CFEBA3C68B92E1E2 /* DDNetWork */ = {
+		1BB0F7F1295D7D11C3FE7461A4D02313 /* DDNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				27924ED179A0807CFB73F34CC6F0EB9B /* DDUtil.h */,
-				468EEE4B2F75FE12C01DC2DDA433C5D4 /* DDUtil.m */,
-				F2C110A86D33D432DC2CAD61261EFE91 /* Pod */,
-				CA67B7A3D839009A8CB61C5167586323 /* Support Files */,
+				35F11B20B5D661CA646DF6E89C4896F2 /* DDUtil.h */,
+				8E3C1E1948633C1B938F8394125CD987 /* DDUtil.m */,
+				3DF097DAE71C16683505473129C43DCE /* Support Files */,
 			);
 			name = DDNetWork;
-			path = ../../DDNetWork;
+			path = DDNetWork;
 			sourceTree = "<group>";
 		};
 		21A50EB33D108C7AE4FB29EDE985131C /* Targets Support Files */ = {
@@ -93,23 +89,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CA67B7A3D839009A8CB61C5167586323 /* Support Files */ = {
+		3DF097DAE71C16683505473129C43DCE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */,
-				45985F5C613406F429F5479561809591 /* DDNetWork-dummy.m */,
-				A8CE2CE978BE5D2386257DAB7E83AA31 /* DDNetWork-prefix.pch */,
+				D5AB1ED13C51E8F26745F6767B3BD17F /* DDNetWork.xcconfig */,
+				B350E8D87EAF9C184FCC65E3FF1C23FB /* DDNetWork-dummy.m */,
+				4C2A56788D95F7EB7F0EB3B376E07C3D /* DDNetWork-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../JenkinsDemo/Pods/Target Support Files/DDNetWork";
+			path = "../Target Support Files/DDNetWork";
+			sourceTree = "<group>";
+		};
+		7F23C36F5F7C8388054DE1F8D21D16FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB0F7F1295D7D11C3FE7461A4D02313 /* DDNetWork */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F953ED030DF4C7A6BD87B57D5CFB0D53 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7F23C36F5F7C8388054DE1F8D21D16FB /* Pods */,
 				EADB1F26FA976EB86752C64F2E65E43F /* Products */,
 				21A50EB33D108C7AE4FB29EDE985131C /* Targets Support Files */,
 			);
@@ -129,24 +133,6 @@
 				14042E8FFF87FBC32E088F434C9A7505 /* libPods-JenkinsDemo.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F2C110A86D33D432DC2CAD61261EFE91 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F4EE335D0B1BF01DE045E76311981B46 /* DDNetWork.podspec */,
-				A1489A77735D38EBC629B6322ADA7D8C /* LICENSE */,
-				BFC5D1EAF89D08F3D3B624F35B2D563E /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F953ED030DF4C7A6BD87B57D5CFB0D53 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1875F7627AF47F89CFEBA3C68B92E1E2 /* DDNetWork */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +184,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				98C5A355A5D8272C9AE47248EE14A91A /* PBXTargetDependency */,
+				81467D95673C07DFCC37BC278183DC8D /* PBXTargetDependency */,
 			);
 			name = "Pods-JenkinsDemo";
 			productName = "Pods-JenkinsDemo";
@@ -254,11 +240,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98C5A355A5D8272C9AE47248EE14A91A /* PBXTargetDependency */ = {
+		81467D95673C07DFCC37BC278183DC8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DDNetWork;
 			target = D4E3DF037F711D6DE3C705A727ECCA17 /* DDNetWork */;
-			targetProxy = 5F9C39BD25080A248F81279DAE78CD0F /* PBXContainerItemProxy */;
+			targetProxy = 6EB15FE8C4CCA1AE4CE7C8F367FFD663 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -306,7 +292,7 @@
 		};
 		9B7F6CB7ACFA3CAEE1D7F866C4116C53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */;
+			baseConfigurationReference = D5AB1ED13C51E8F26745F6767B3BD17F /* DDNetWork.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -390,7 +376,7 @@
 		};
 		DCAE684EBB2C99182A072C0053C6B518 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */;
+			baseConfigurationReference = D5AB1ED13C51E8F26745F6767B3BD17F /* DDNetWork.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

@@ -1,16 +1,16 @@
 PODS:
-  - DDNetWork (0.1.0)
+  - DDNetWork (1.0.2)
 
 DEPENDENCIES:
-  - DDNetWork (from `../DDNetWork/`)
+  - DDNetWork (= 1.0.2)
 
-EXTERNAL SOURCES:
-  DDNetWork:
-    :path: "../DDNetWork/"
+SPEC REPOS:
+  "git@github.com:ziyouzhe4/my_specs.git":
+    - DDNetWork
 
 SPEC CHECKSUMS:
-  DDNetWork: 85eee699c2da2cc740f9736a09de92cd9e82a540
+  DDNetWork: bb27415c605fa4aadf52f24957921f19cf23a62c
 
-PODFILE CHECKSUM: 2005e2131e65139bcd5862b037b985226e4766b5
+PODFILE CHECKSUM: df0446b5d0819cfcddcfd98209c5902859ba2b05
 
 COCOAPODS: 1.8.4

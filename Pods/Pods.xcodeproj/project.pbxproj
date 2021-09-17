@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC50511B85A6EA6E439019BA04E7A4F /* DDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 27924ED179A0807CFB73F34CC6F0EB9B /* DDUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4723BF6CBFF9DC9469634E504E707573 /* Pods-JenkinsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7319514A3D6BE48DE44BD94C9B86F /* Pods-JenkinsDemo-dummy.m */; };
+		480857B3FA11C999B8B81F74607E0D18 /* DDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EEE4B2F75FE12C01DC2DDA433C5D4 /* DDUtil.m */; };
+		650F9C5EF566CE8E1DAA8088DE656359 /* DDNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45985F5C613406F429F5479561809591 /* DDNetWork-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F9C39BD25080A248F81279DAE78CD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E3DF037F711D6DE3C705A727ECCA17;
+			remoteInfo = DDNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EC7319514A3D6BE48DE44BD94C9B86F /* Pods-JenkinsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JenkinsDemo-dummy.m"; sourceTree = "<group>"; };
+		14042E8FFF87FBC32E088F434C9A7505 /* libPods-JenkinsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JenkinsDemo.a"; path = "libPods-JenkinsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27924ED179A0807CFB73F34CC6F0EB9B /* DDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDUtil.h; path = DDNetWork/Classes/DDUtil.h; sourceTree = "<group>"; };
+		45985F5C613406F429F5479561809591 /* DDNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDNetWork-dummy.m"; sourceTree = "<group>"; };
+		468EEE4B2F75FE12C01DC2DDA433C5D4 /* DDUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDUtil.m; path = DDNetWork/Classes/DDUtil.m; sourceTree = "<group>"; };
+		4F3DEC877DB760F8335BDCA78C490189 /* Pods-JenkinsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDNetWork.xcconfig; sourceTree = "<group>"; };
+		9C6CF7BF8D2458ACAA1F4189511AC468 /* libDDNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDDNetWork.a; path = libDDNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1489A77735D38EBC629B6322ADA7D8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3E849D972951C2FFEF925D3D963C406 /* Pods-JenkinsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JenkinsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A8CE2CE978BE5D2386257DAB7E83AA31 /* DDNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDNetWork-prefix.pch"; sourceTree = "<group>"; };
+		A9B3A135B14577CD62C044253D41ECA5 /* Pods-JenkinsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JenkinsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFC5D1EAF89D08F3D3B624F35B2D563E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F4EE335D0B1BF01DE045E76311981B46 /* DDNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB7C88969ED0E8FB55F16CF6DADA61B7 /* Pods-JenkinsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JenkinsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086A6E1AD981F3402578C596937498F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F8BB3F21D0823DD2BF053435150AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00301F9760A7BA9F2B8663DFE6271F9F /* Pods-JenkinsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C88969ED0E8FB55F16CF6DADA61B7 /* Pods-JenkinsDemo-acknowledgements.markdown */,
+				A9B3A135B14577CD62C044253D41ECA5 /* Pods-JenkinsDemo-acknowledgements.plist */,
+				0EC7319514A3D6BE48DE44BD94C9B86F /* Pods-JenkinsDemo-dummy.m */,
+				4F3DEC877DB760F8335BDCA78C490189 /* Pods-JenkinsDemo.debug.xcconfig */,
+				A3E849D972951C2FFEF925D3D963C406 /* Pods-JenkinsDemo.release.xcconfig */,
+			);
+			name = "Pods-JenkinsDemo";
+			path = "Target Support Files/Pods-JenkinsDemo";
+			sourceTree = "<group>";
+		};
+		1875F7627AF47F89CFEBA3C68B92E1E2 /* DDNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				27924ED179A0807CFB73F34CC6F0EB9B /* DDUtil.h */,
+				468EEE4B2F75FE12C01DC2DDA433C5D4 /* DDUtil.m */,
+				F2C110A86D33D432DC2CAD61261EFE91 /* Pod */,
+				CA67B7A3D839009A8CB61C5167586323 /* Support Files */,
+			);
+			name = DDNetWork;
+			path = ../../DDNetWork;
+			sourceTree = "<group>";
+		};
+		21A50EB33D108C7AE4FB29EDE985131C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00301F9760A7BA9F2B8663DFE6271F9F /* Pods-JenkinsDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA67B7A3D839009A8CB61C5167586323 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */,
+				45985F5C613406F429F5479561809591 /* DDNetWork-dummy.m */,
+				A8CE2CE978BE5D2386257DAB7E83AA31 /* DDNetWork-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../JenkinsDemo/Pods/Target Support Files/DDNetWork";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F953ED030DF4C7A6BD87B57D5CFB0D53 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EADB1F26FA976EB86752C64F2E65E43F /* Products */,
+				21A50EB33D108C7AE4FB29EDE985131C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADB1F26FA976EB86752C64F2E65E43F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C6CF7BF8D2458ACAA1F4189511AC468 /* libDDNetWork.a */,
+				14042E8FFF87FBC32E088F434C9A7505 /* libPods-JenkinsDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C110A86D33D432DC2CAD61261EFE91 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE335D0B1BF01DE045E76311981B46 /* DDNetWork.podspec */,
+				A1489A77735D38EBC629B6322ADA7D8C /* LICENSE */,
+				BFC5D1EAF89D08F3D3B624F35B2D563E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F953ED030DF4C7A6BD87B57D5CFB0D53 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1875F7627AF47F89CFEBA3C68B92E1E2 /* DDNetWork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96B79CDAE5278B4D72AC62EDC673FE7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC50511B85A6EA6E439019BA04E7A4F /* DDUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBC71196F85F6EE2A602C45F43E47D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4E3DF037F711D6DE3C705A727ECCA17 /* DDNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A099F44420A520E451D8446096424596 /* Build configuration list for PBXNativeTarget "DDNetWork" */;
+			buildPhases = (
+				96B79CDAE5278B4D72AC62EDC673FE7D /* Headers */,
+				A3672766D748946242729DF419DF44BB /* Sources */,
+				28F8BB3F21D0823DD2BF053435150AC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDNetWork;
+			productName = DDNetWork;
+			productReference = 9C6CF7BF8D2458ACAA1F4189511AC468 /* libDDNetWork.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FECB4FA57565954A1EFE22D351B3872E /* Pods-JenkinsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F67129A04C0ADA4F77C84873E2F9BDA /* Build configuration list for PBXNativeTarget "Pods-JenkinsDemo" */;
+			buildPhases = (
+				DBBC71196F85F6EE2A602C45F43E47D2 /* Headers */,
+				0F10CD508F9CE31E20808840C9AE9C18 /* Sources */,
+				086A6E1AD981F3402578C596937498F0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C5A355A5D8272C9AE47248EE14A91A /* PBXTargetDependency */,
+			);
+			name = "Pods-JenkinsDemo";
+			productName = "Pods-JenkinsDemo";
+			productReference = 14042E8FFF87FBC32E088F434C9A7505 /* libPods-JenkinsDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EADB1F26FA976EB86752C64F2E65E43F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E3DF037F711D6DE3C705A727ECCA17 /* DDNetWork */,
+				FECB4FA57565954A1EFE22D351B3872E /* Pods-JenkinsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F10CD508F9CE31E20808840C9AE9C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4723BF6CBFF9DC9469634E504E707573 /* Pods-JenkinsDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3672766D748946242729DF419DF44BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F9C5EF566CE8E1DAA8088DE656359 /* DDNetWork-dummy.m in Sources */,
+				480857B3FA11C999B8B81F74607E0D18 /* DDUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98C5A355A5D8272C9AE47248EE14A91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDNetWork;
+			target = D4E3DF037F711D6DE3C705A727ECCA17 /* DDNetWork */;
+			targetProxy = 5F9C39BD25080A248F81279DAE78CD0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0804A9E752315BFFDFE7156A24211EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E849D972951C2FFEF925D3D963C406 /* Pods-JenkinsDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893C4512D836E396FE4EB17274705B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3DEC877DB760F8335BDCA78C490189 /* Pods-JenkinsDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B7F6CB7ACFA3CAEE1D7F866C4116C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DDNetWork/DDNetWork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DDNetWork;
+				PRODUCT_NAME = DDNetWork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCAE684EBB2C99182A072C0053C6B518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7926D1717DC99352A3FA6A5E89183351 /* DDNetWork.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DDNetWork/DDNetWork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DDNetWork;
+				PRODUCT_NAME = DDNetWork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F67129A04C0ADA4F77C84873E2F9BDA /* Build configuration list for PBXNativeTarget "Pods-JenkinsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893C4512D836E396FE4EB17274705B7F /* Debug */,
+				0804A9E752315BFFDFE7156A24211EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A099F44420A520E451D8446096424596 /* Build configuration list for PBXNativeTarget "DDNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAE684EBB2C99182A072C0053C6B518 /* Debug */,
+				9B7F6CB7ACFA3CAEE1D7F866C4116C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
